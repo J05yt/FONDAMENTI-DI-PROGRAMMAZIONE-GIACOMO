@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> REGISTER LOG IN </title>
+    <link rel="stylesheet" href="logIn.css">
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>REGISTRO ELETTRONICO STUDENTI</h1>
+        <p>Questa è l'unica pagina ufficiale per il registro elettronico degli studenti/docenti di quest'istituto,protetto da Tutti i diritti riservati </p>
+        <img src="Istruzione.png">
+        
+        <img src="scuola x italia di domani.jpg">
+        <div>
+            <form action="provahtml.html" class="bordered">
+                <img src="Logo.png" width="180px"><br>
+                <label for="username" style="font-size:20px; margin-right: 0.2cm;">Email:</label><input type="text" style="height: 0.5cm;" size="20" maxlength="10" placeholder="nome.cognome@itssmartacademy.it" required autofocus id="email">
+                    <input type="button" style="margin-left: 0.5cm; margin-bottom: 1%;" onclick="svuotausername()" value="delete"><br>
+                <label for="password" style="font-size:20px; margin-right: 0.2cm;">Password:</label><input id="password" type="password" style="height: 0.5cm;" size="20" maxlength="16" placeholder="password" pattern="[a-z]{1,}[\d]{1,}" required >
+                    <input type="button" onclick="togglepassword()" value="👁️"><input type="button" style="margin-left: 0.5cm;" onclick="svuotapassword()" value="delete"><br>
+                <input type="submit" style="margin-left: 10px; margin-top: 10px;" value="login">
+                <input type="reset" value="reset"><br>
+            </form>
+        </div>
+        <h1>Ed ora un po' di ricordi</h1>
+        <p>Alcune delle nostre classi(dalle più piccole alle più grandi) che man mano negli anni sono passate per il nostro istituto</p>
+        <img src="scuola 1.jpg" width="500" height="350" >
+        <img src="scuola 2.jpg" width="500" height="350">
+        <img src="scuola 3.jpg" width="500" height="350">
+        <img src="scuola 4.jfif" width="500" height="350">
+        <img src="rightsreserved.png" width="550" height="200">
+    </div>
+   
+
+</body>
+
+</html>
